@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomPasscode</title>
+@* @ViewBag.RandNumb *@
+</head>
+
+<body>
+    <h1>RandomPasscode</h1> 
+    @if(ViewBag.RandPass != null)
+    {
+        <p>your random number is @ViewBag.RandPass</p>
+    }
+@* 
+    <form action="reset" method="post">
+        <button>Reset</button>
+    </form> *@
+
+    <form action="" method="post">
+        <h3>your random number</h3>
+        <button>Generate</button>
+    </form>   
+</body>
+</html>
